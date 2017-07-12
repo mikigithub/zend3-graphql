@@ -1,0 +1,19 @@
+<head>
+<script src="jquery-3.2.1.min.js"></script>
+</head>
+    <textarea name="input" id="input" rows="10" cols="70"></textarea>
+    <input id="send" type="button" value="Send" />
+	<div id="show"></div>
+<script>
+	$('#send').click(function(){
+		input = $('#input').val();
+		$.post("/graphql",
+		{
+			input: input
+			
+		},
+		function(data, status){
+		  $('#show').html(data);
+		});
+	})
+</script>
