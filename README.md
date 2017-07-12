@@ -84,7 +84,7 @@ use GraphQL\Type\Definition\Type;
  *
  * @author alex
  */
-class User extends ObjectType {
+class UserType extends ObjectType {
     
     public function __construct(TypeFactory $typeFactory) {
         parent::__construct([
