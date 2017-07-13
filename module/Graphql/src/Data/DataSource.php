@@ -167,11 +167,11 @@ class DataSource
     
 	public static function findPackageWhereIn(Array $idPackages)
     {
-		$result = [];
-		foreach ($idPackages as $idPackage) {
-			$package = isset(self::$packages[$idPackage]) ? self::$packages[$idPackage] : null;
-			array_push($result, $package);
-		}
+        $result = [];
+        foreach ($idPackages as $idPackage) {
+            $package = isset(self::$packages[$idPackage]) ? self::$packages[$idPackage] : null;
+            array_push($result, $package);
+        }
         return $result;
     }
 	
@@ -187,11 +187,11 @@ class DataSource
 	
 	public static function findPackageDetailWhereIn(Array $idPackageDetails)
     {
-		$result = [];
-		foreach ($idPackageDetails as $idPackageDetail) {
-			$packageDetail = isset(self::$packageDetails[$idPackageDetail]) ? self::$packageDetails[$idPackageDetail] : null;
-			array_push($result, $packageDetail);
-		}
+        $result = [];
+        foreach ($idPackageDetails as $idPackageDetail) {
+            $packageDetail = isset(self::$packageDetails[$idPackageDetail]) ? self::$packageDetails[$idPackageDetail] : null;
+            array_push($result, $packageDetail);
+        }
         return $result;
     }
     

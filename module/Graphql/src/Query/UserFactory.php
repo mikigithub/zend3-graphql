@@ -39,12 +39,12 @@ class UserFactory implements FactoryInterface{
             ],
             'resolve' => function($root, $args) {
                 DataSource::init();
-				if(is_null($args['id'])) {
-				  $user = DataSource::getUsers();
-				}
+                if(is_null($args['id'])) {
+                  $user = DataSource::getUsers();
+                }
 				
                 if(!is_null($args['id'])) {
-					  $user = DataSource::findUserWhereIn($args['id']);
+                    $user = DataSource::findUserWhereIn($args['id']);
                 }
                 return $user;
             }

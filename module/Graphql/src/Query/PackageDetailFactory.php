@@ -30,17 +30,16 @@ class PackageDetailFactory implements FactoryInterface{
             'resolve' => function($root, $args) {
 
                 DataSource::init();
-				
-				if(is_null($args['id'])) {
-					$packageDetails = DataSource::getPackageDetails();
-				}
-				
-                if(!is_null($args['id'])) {
+
+                if (is_null($args['id'])) {
+                    $packageDetails = DataSource::getPackageDetails();
+                }
+
+                if (!is_null($args['id'])) {
                     $packageDetails = DataSource::findPackageDetailWhereIn($args['id']);
-					foreach ($packageDetails as $key => $packageDetail) {
-						$packageDetails[$key]->package = DataSource::findPackage($packageDetail->idPqAgente);
-					  
-					}
+                    foreach ($packageDetails as $key => $packageDetail) {
+                        $packageDetails[$key]->package = DataSource::findPackageWhereIn([$packageDetail->idPqAgente]);			
+                    }
                 }
                 
                 return $packageDetails;

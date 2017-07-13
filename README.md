@@ -26,7 +26,7 @@ $ docker-compose up
 
 Go:
 ```bash
- http://localhost:8000/zendgraphql
+ http://localhost:8080/zendgraphql
 ```
 
 Example code line on textArea:

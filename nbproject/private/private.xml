@@ -5,19 +5,6 @@
         <group name="graphql-php">
             <file>file:/home/miki/proyectos/zendgraphql/public/index.php</file>
         </group>
-        <group name="zendgraphql">
-            <file>file:/home/miki/proyectos/zendgraphql/module/Graphql/config/module.config.php</file>
-            <file>file:/home/miki/proyectos/zendgraphql/module/Graphql/src/Controller/GraphQLController.php</file>
-            <file>file:/home/miki/proyectos/zendgraphql/module/Graphql/src/Schema/SchemaFactory.php</file>
-            <file>file:/home/miki/proyectos/zendgraphql/module/Graphql/src/ObjectType/Listar.php</file>
-            <file>file:/home/miki/proyectos/zendgraphql/module/Graphql/src/Query/UserFactory.php</file>
-            <file>file:/home/miki/proyectos/zendgraphql/module/Graphql/src/Query/ListarFactory.php</file>
-            <file>file:/home/miki/proyectos/zendgraphql/module/Graphql/src/Schema/QueryFactory.php</file>
-            <file>file:/home/miki/proyectos/zendgraphql/module/Graphql/view/graphql/index/index.phtml</file>
-            <file>file:/home/miki/proyectos/zendgraphql/module/Graphql/src/ObjectType/User.php</file>
-            <file>file:/home/miki/proyectos/zendgraphql/module/Graphql/src/Entity/User.php</file>
-            <file>file:/home/miki/proyectos/zendgraphql/module/Graphql/src/Data/DataSource.php</file>
-        </group>
         <group>
             <file>file:/home/alex/Documents/proyectos/phpAndNginx/app/zendgraphql/module/Graphql/src/ObjectType/User.php</file>
             <file>file:/home/alex/Documents/proyectos/phpAndNginx/app/zendgraphql/module/Graphql/src/Data/DataSource.php</file>
@@ -25,6 +12,27 @@
             <file>file:/home/alex/Documents/proyectos/phpAndNginx/app/zendgraphql/module/Graphql/src/Schema/QueryFactory.php</file>
             <file>file:/home/alex/Documents/proyectos/phpAndNginx/app/zendgraphql/module/Graphql/src/Query/UserFactory.php</file>
             <file>file:/home/alex/Documents/proyectos/phpAndNginx/app/zendgraphql/module/Graphql/src/ObjectType/Listar.php</file>
+        </group>
+        <group name="zendgraphql">
+            <file>file:/home/miki/proyectos/zendgraphql/module/Graphql/src/ObjectType/Registertype.php</file>
+            <file>file:/home/miki/proyectos/zendgraphql/module/Graphql/src/Controller/GraphQLController.php</file>
+            <file>file:/home/miki/proyectos/zendgraphql/module/Graphql/src/Schema/SchemaFactory.php</file>
+            <file>file:/home/miki/proyectos/zendgraphql/module/Graphql/src/Mutation/RegisterFactory.php</file>
+            <file>file:/home/miki/proyectos/zendgraphql/module/Graphql/src/ObjectType/ListarType.php</file>
+            <file>file:/home/miki/proyectos/zendgraphql/module/Graphql/src/Query/ListarFactory.php</file>
+            <file>file:/home/miki/proyectos/zendgraphql/module/Graphql/src/Schema/QueryFactory.php</file>
+            <file>file:/home/miki/proyectos/zendgraphql/module/Graphql/view/graphql/index/index.phtml</file>
+            <file>file:/home/miki/proyectos/zendgraphql/module/Graphql/src/ObjectType/PackageDetailType.php</file>
+            <file>file:/home/miki/proyectos/zendgraphql/module/Graphql/src/Query/PackageFactory.php</file>
+            <file>file:/home/miki/proyectos/zendgraphql/module/Graphql/config/module.config.php</file>
+            <file>file:/home/miki/proyectos/zendgraphql/module/Graphql/src/Entity/PackageDetail.php</file>
+            <file>file:/home/miki/proyectos/zendgraphql/module/Graphql/src/ObjectType/UserType.php</file>
+            <file>file:/home/miki/proyectos/zendgraphql/module/Graphql/src/Query/UserFactory.php</file>
+            <file>file:/home/miki/proyectos/zendgraphql/module/Graphql/src/Entity/User.php</file>
+            <file>file:/home/miki/proyectos/zendgraphql/module/Graphql/src/Data/DataSource.php</file>
+            <file>file:/home/miki/proyectos/zendgraphql/module/Graphql/src/Entity/Package.php</file>
+            <file>file:/home/miki/proyectos/zendgraphql/module/Graphql/src/ObjectType/PackageType.php</file>
+            <file>file:/home/miki/proyectos/zendgraphql/module/Graphql/src/Query/PackageDetailFactory.php</file>
         </group>
     </open-files>
 </project-private>

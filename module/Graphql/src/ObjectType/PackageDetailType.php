@@ -26,9 +26,9 @@ class PackageDetailType extends ObjectType {
 					'description' => 'Description of field'
 				],
 				'package' => [
-                    'type' => $typeFactory->getType('Package'),
-                    'description' => 'This field contains my custom object type',
-                ],
+                                    'type' => Type::listOf($typeFactory->getType('Package')),
+                                    'description' => 'This field contains my custom object type',
+                                ],
 				'idPerfil' => [
 					'type' => Type::string(),
 					'description' => 'Description of field'
